@@ -1,0 +1,17 @@
+[project]
+authors = ["Chris Fonnesbeck <fonnesbeck@gmail.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "field_of_play"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pymc = ">=5.20.1,<6"
+ipykernel = ">=6.29.5,<7"
+polars = ">=1.21.0,<2"
+
+[pypi-dependencies]
+pybaseball = ">=2.2.7, <3"
